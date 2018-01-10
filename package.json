@@ -1,0 +1,24 @@
+{
+  "name": "vue-review",
+  "version": "1.0.0",
+  "description": "vue-webpack-base",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibekavac/vue-review.git"
+  },
+  "keywords": [
+    "vue",
+    "review",
+    "webpack"
+  ],
+  "author": "ibekavac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibekavac/vue-review/issues"
+  },
+  "homepage": "https://github.com/ibekavac/vue-review#readme"
+}
