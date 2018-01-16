@@ -1,5 +1,10 @@
 import Vue from 'vue';
 
 new Vue({
-  el: '.vue-app'
+	data: function () {
+		return {
+			message: 'Webpack and blaasdash setup'
+		}
+	},
+	el: '#vue1-app'
 });

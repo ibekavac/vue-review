@@ -4,9 +4,9 @@
   "description": "vue-webpack-base",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch",
-    "build": "WEBPACK_ENV=production webpack"
+    "build": "WEBPACK_ENV=dev webpack --progress --colors --watch",
+    "build:prod": "WEBPACK_ENV=production webpack",
+    "start": "webpack-dev-server --watch"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
     "vue-html-loader": "^1.2.4",
     "vue-loader": "^13.7.0",
     "vue-template-compiler": "^2.5.13",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
   }
 }
