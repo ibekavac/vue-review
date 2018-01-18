@@ -2,12 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Vue Example</title>
+    <title>Vue Playground</title>
   </head>
   <body>
-	  <div id="vue1-app">
-	  	blaafsdf brko i Antomon poruka: {{message}}
-	  </div>
+	  <div id="app">
+      {{message}}
+    </div>
+
+    <div id="app-2">
+      <span v-bind:title="message">
+        Hover me to see page load time!
+      </span>
+    </div>
+
+      <div id="app-3">
+        <span v-if="seen">Now you see me</span>
+      </div>
+
+      <div id="app-4">
+        <ol>
+          <li v-for="todo in todos">
+            {{ todo.text }}
+          </li>
+        </ol>
+      </div>
     <script src="build/app.js"></script>
   </body>
 </html>

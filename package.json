@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "WEBPACK_ENV=dev webpack --progress --colors --watch",
-    "build:prod": "WEBPACK_ENV=production webpack",
-    "start": "webpack-dev-server --watch"
+    "build:prod": "WEBPACK_ENV=production webpack"
   },
   "repository": {
     "type": "git",
